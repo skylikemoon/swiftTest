@@ -7,12 +7,33 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8D29B1E91CEB0C57009BD243 /* MsgDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D29B1E81CEB0C56009BD243 /* MsgDetailViewController.swift */; };
+		8D29B1EC1CEB0E61009BD243 /* MsgDetailCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D29B1EA1CEB0E61009BD243 /* MsgDetailCell.swift */; };
+		8D29B1ED1CEB0E61009BD243 /* MsgDetailCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8D29B1EB1CEB0E61009BD243 /* MsgDetailCell.xib */; };
 		8D463CBF1C858061009F16E8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D463CBE1C858061009F16E8 /* AppDelegate.swift */; };
 		8D463CC11C858061009F16E8 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D463CC01C858061009F16E8 /* ViewController.swift */; };
 		8D463CC41C858061009F16E8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8D463CC21C858061009F16E8 /* Main.storyboard */; };
 		8D463CC61C858061009F16E8 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8D463CC51C858061009F16E8 /* Images.xcassets */; };
 		8D463CC91C858061009F16E8 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8D463CC71C858061009F16E8 /* LaunchScreen.xib */; };
 		8D463CD51C858061009F16E8 /* swift3Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D463CD41C858061009F16E8 /* swift3Tests.swift */; };
+		8DCE50061CE5C9AD005C0493 /* BViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DCE50021CE5C9AD005C0493 /* BViewController.swift */; };
+		8DCE50071CE5C9AD005C0493 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DCE50031CE5C9AD005C0493 /* HomeViewController.swift */; };
+		8DCE50081CE5C9AD005C0493 /* MessageCenterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DCE50041CE5C9AD005C0493 /* MessageCenterViewController.swift */; };
+		8DCE50091CE5C9AD005C0493 /* SquareViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DCE50051CE5C9AD005C0493 /* SquareViewController.swift */; };
+		8DCE500C1CE5D167005C0493 /* HomeCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DCE500B1CE5D167005C0493 /* HomeCell.swift */; };
+		8DD70F261CEEDF54004362E6 /* MsgHeadImgViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DD70F251CEEDF54004362E6 /* MsgHeadImgViewController.swift */; };
+		8DD70F291CEEF48A004362E6 /* SqrTitleScrollView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DD70F281CEEF48A004362E6 /* SqrTitleScrollView.swift */; };
+		8DD70F371CEF0756004362E6 /* CircleViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8DD70F2C1CEF0756004362E6 /* CircleViewController.m */; };
+		8DD70F381CEF0756004362E6 /* CircleWithTextViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8DD70F2E1CEF0756004362E6 /* CircleWithTextViewController.m */; };
+		8DD70F391CEF0756004362E6 /* LevelProgressViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8DD70F301CEF0756004362E6 /* LevelProgressViewController.m */; };
+		8DD70F3A1CEF0756004362E6 /* LevelWithTextViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8DD70F321CEF0756004362E6 /* LevelWithTextViewController.m */; };
+		8DD70F3B1CEF0756004362E6 /* SemiCircleViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8DD70F341CEF0756004362E6 /* SemiCircleViewController.m */; };
+		8DD70F3C1CEF0756004362E6 /* SemiCircleWithTextViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8DD70F361CEF0756004362E6 /* SemiCircleWithTextViewController.m */; };
+		8DD70F4D1CEF076B004362E6 /* CircleProgressView.m in Sources */ = {isa = PBXBuildFile; fileRef = 8DD70F401CEF076B004362E6 /* CircleProgressView.m */; };
+		8DD70F4E1CEF076B004362E6 /* CircleWithTextProgressView.m in Sources */ = {isa = PBXBuildFile; fileRef = 8DD70F431CEF076B004362E6 /* CircleWithTextProgressView.m */; };
+		8DD70F4F1CEF076B004362E6 /* LevelProgressView.m in Sources */ = {isa = PBXBuildFile; fileRef = 8DD70F461CEF076B004362E6 /* LevelProgressView.m */; };
+		8DD70F501CEF076B004362E6 /* SemiCircleProgressView.m in Sources */ = {isa = PBXBuildFile; fileRef = 8DD70F491CEF076B004362E6 /* SemiCircleProgressView.m */; };
+		8DD70F511CEF076B004362E6 /* SemiCircleWithTextProgressView.m in Sources */ = {isa = PBXBuildFile; fileRef = 8DD70F4C1CEF076B004362E6 /* SemiCircleWithTextProgressView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -26,6 +47,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		8D29B1E81CEB0C56009BD243 /* MsgDetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MsgDetailViewController.swift; sourceTree = "<group>"; };
+		8D29B1EA1CEB0E61009BD243 /* MsgDetailCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MsgDetailCell.swift; sourceTree = "<group>"; };
+		8D29B1EB1CEB0E61009BD243 /* MsgDetailCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MsgDetailCell.xib; sourceTree = "<group>"; };
 		8D463CB91C858061009F16E8 /* swift3.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = swift3.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8D463CBD1C858061009F16E8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8D463CBE1C858061009F16E8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -36,6 +60,38 @@
 		8D463CCE1C858061009F16E8 /* swift3Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = swift3Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		8D463CD31C858061009F16E8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8D463CD41C858061009F16E8 /* swift3Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = swift3Tests.swift; sourceTree = "<group>"; };
+		8DCE50021CE5C9AD005C0493 /* BViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BViewController.swift; sourceTree = "<group>"; };
+		8DCE50031CE5C9AD005C0493 /* HomeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = HomeViewController.swift; path = swift3/HomeViewController.swift; sourceTree = SOURCE_ROOT; };
+		8DCE50041CE5C9AD005C0493 /* MessageCenterViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MessageCenterViewController.swift; path = swift3/MessageCenterViewController.swift; sourceTree = SOURCE_ROOT; };
+		8DCE50051CE5C9AD005C0493 /* SquareViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SquareViewController.swift; path = swift3/SquareViewController.swift; sourceTree = SOURCE_ROOT; };
+		8DCE500B1CE5D167005C0493 /* HomeCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeCell.swift; sourceTree = "<group>"; };
+		8DD70F251CEEDF54004362E6 /* MsgHeadImgViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MsgHeadImgViewController.swift; sourceTree = "<group>"; };
+		8DD70F281CEEF48A004362E6 /* SqrTitleScrollView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SqrTitleScrollView.swift; sourceTree = "<group>"; };
+		8DD70F2B1CEF0756004362E6 /* CircleViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CircleViewController.h; sourceTree = "<group>"; };
+		8DD70F2C1CEF0756004362E6 /* CircleViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CircleViewController.m; sourceTree = "<group>"; };
+		8DD70F2D1CEF0756004362E6 /* CircleWithTextViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CircleWithTextViewController.h; sourceTree = "<group>"; };
+		8DD70F2E1CEF0756004362E6 /* CircleWithTextViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CircleWithTextViewController.m; sourceTree = "<group>"; };
+		8DD70F2F1CEF0756004362E6 /* LevelProgressViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LevelProgressViewController.h; sourceTree = "<group>"; };
+		8DD70F301CEF0756004362E6 /* LevelProgressViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LevelProgressViewController.m; sourceTree = "<group>"; };
+		8DD70F311CEF0756004362E6 /* LevelWithTextViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LevelWithTextViewController.h; sourceTree = "<group>"; };
+		8DD70F321CEF0756004362E6 /* LevelWithTextViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LevelWithTextViewController.m; sourceTree = "<group>"; };
+		8DD70F331CEF0756004362E6 /* SemiCircleViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SemiCircleViewController.h; sourceTree = "<group>"; };
+		8DD70F341CEF0756004362E6 /* SemiCircleViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SemiCircleViewController.m; sourceTree = "<group>"; };
+		8DD70F351CEF0756004362E6 /* SemiCircleWithTextViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SemiCircleWithTextViewController.h; sourceTree = "<group>"; };
+		8DD70F361CEF0756004362E6 /* SemiCircleWithTextViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SemiCircleWithTextViewController.m; sourceTree = "<group>"; };
+		8DD70F3F1CEF076B004362E6 /* CircleProgressView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CircleProgressView.h; sourceTree = "<group>"; };
+		8DD70F401CEF076B004362E6 /* CircleProgressView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CircleProgressView.m; sourceTree = "<group>"; };
+		8DD70F421CEF076B004362E6 /* CircleWithTextProgressView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CircleWithTextProgressView.h; sourceTree = "<group>"; };
+		8DD70F431CEF076B004362E6 /* CircleWithTextProgressView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CircleWithTextProgressView.m; sourceTree = "<group>"; };
+		8DD70F451CEF076B004362E6 /* LevelProgressView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LevelProgressView.h; sourceTree = "<group>"; };
+		8DD70F461CEF076B004362E6 /* LevelProgressView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LevelProgressView.m; sourceTree = "<group>"; };
+		8DD70F481CEF076B004362E6 /* SemiCircleProgressView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SemiCircleProgressView.h; sourceTree = "<group>"; };
+		8DD70F491CEF076B004362E6 /* SemiCircleProgressView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SemiCircleProgressView.m; sourceTree = "<group>"; };
+		8DD70F4B1CEF076B004362E6 /* SemiCircleWithTextProgressView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SemiCircleWithTextProgressView.h; sourceTree = "<group>"; };
+		8DD70F4C1CEF076B004362E6 /* SemiCircleWithTextProgressView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SemiCircleWithTextProgressView.m; sourceTree = "<group>"; };
+		8DD70F531CEF0C6A004362E6 /* PrefixHeader.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		8DD70F541CEF0D88004362E6 /* swift3Tests-Bridging-Header.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "swift3Tests-Bridging-Header.h"; sourceTree = "<group>"; };
+		8DD70F551CEF0DA9004362E6 /* swift3Tests-Bridging-Header.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "swift3Tests-Bridging-Header.h"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +112,18 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		8D29B1E71CEB0C18009BD243 /* Message */ = {
+			isa = PBXGroup;
+			children = (
+				8DCE50041CE5C9AD005C0493 /* MessageCenterViewController.swift */,
+				8D29B1E81CEB0C56009BD243 /* MsgDetailViewController.swift */,
+				8DD70F251CEEDF54004362E6 /* MsgHeadImgViewController.swift */,
+				8D29B1EA1CEB0E61009BD243 /* MsgDetailCell.swift */,
+				8D29B1EB1CEB0E61009BD243 /* MsgDetailCell.xib */,
+			);
+			path = Message;
+			sourceTree = "<group>";
+		};
 		8D463CB01C858060009F16E8 = {
 			isa = PBXGroup;
 			children = (
@@ -77,8 +145,14 @@
 		8D463CBB1C858061009F16E8 /* swift3 */ = {
 			isa = PBXGroup;
 			children = (
+				8DD70F3D1CEF076B004362E6 /* SHProgressView */,
+				8DD70F2A1CEF0756004362E6 /* Controllers */,
 				8D463CBE1C858061009F16E8 /* AppDelegate.swift */,
 				8D463CC01C858061009F16E8 /* ViewController.swift */,
+				8DCE50021CE5C9AD005C0493 /* BViewController.swift */,
+				8DCE500A1CE5D142005C0493 /* Home */,
+				8DD70F271CEEF306004362E6 /* Square */,
+				8D29B1E71CEB0C18009BD243 /* Message */,
 				8D463CC21C858061009F16E8 /* Main.storyboard */,
 				8D463CC51C858061009F16E8 /* Images.xcassets */,
 				8D463CC71C858061009F16E8 /* LaunchScreen.xib */,
@@ -90,7 +164,9 @@
 		8D463CBC1C858061009F16E8 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				8DD70F551CEF0DA9004362E6 /* swift3Tests-Bridging-Header.h */,
 				8D463CBD1C858061009F16E8 /* Info.plist */,
+				8DD70F531CEF0C6A004362E6 /* PrefixHeader.pch */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -98,6 +174,7 @@
 		8D463CD11C858061009F16E8 /* swift3Tests */ = {
 			isa = PBXGroup;
 			children = (
+				8DD70F541CEF0D88004362E6 /* swift3Tests-Bridging-Header.h */,
 				8D463CD41C858061009F16E8 /* swift3Tests.swift */,
 				8D463CD21C858061009F16E8 /* Supporting Files */,
 			);
@@ -110,6 +187,100 @@
 				8D463CD31C858061009F16E8 /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		8DCE500A1CE5D142005C0493 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				8DCE50031CE5C9AD005C0493 /* HomeViewController.swift */,
+				8DCE500B1CE5D167005C0493 /* HomeCell.swift */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		8DD70F271CEEF306004362E6 /* Square */ = {
+			isa = PBXGroup;
+			children = (
+				8DCE50051CE5C9AD005C0493 /* SquareViewController.swift */,
+				8DD70F281CEEF48A004362E6 /* SqrTitleScrollView.swift */,
+			);
+			path = Square;
+			sourceTree = "<group>";
+		};
+		8DD70F2A1CEF0756004362E6 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				8DD70F2B1CEF0756004362E6 /* CircleViewController.h */,
+				8DD70F2C1CEF0756004362E6 /* CircleViewController.m */,
+				8DD70F2D1CEF0756004362E6 /* CircleWithTextViewController.h */,
+				8DD70F2E1CEF0756004362E6 /* CircleWithTextViewController.m */,
+				8DD70F2F1CEF0756004362E6 /* LevelProgressViewController.h */,
+				8DD70F301CEF0756004362E6 /* LevelProgressViewController.m */,
+				8DD70F311CEF0756004362E6 /* LevelWithTextViewController.h */,
+				8DD70F321CEF0756004362E6 /* LevelWithTextViewController.m */,
+				8DD70F331CEF0756004362E6 /* SemiCircleViewController.h */,
+				8DD70F341CEF0756004362E6 /* SemiCircleViewController.m */,
+				8DD70F351CEF0756004362E6 /* SemiCircleWithTextViewController.h */,
+				8DD70F361CEF0756004362E6 /* SemiCircleWithTextViewController.m */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		8DD70F3D1CEF076B004362E6 /* SHProgressView */ = {
+			isa = PBXGroup;
+			children = (
+				8DD70F3E1CEF076B004362E6 /* CircleProgressView */,
+				8DD70F411CEF076B004362E6 /* CircleWithTextProgressView */,
+				8DD70F441CEF076B004362E6 /* LevelProgressView */,
+				8DD70F471CEF076B004362E6 /* SemiCircleProgressView */,
+				8DD70F4A1CEF076B004362E6 /* SemiCircleWithTextProgressView */,
+			);
+			path = SHProgressView;
+			sourceTree = "<group>";
+		};
+		8DD70F3E1CEF076B004362E6 /* CircleProgressView */ = {
+			isa = PBXGroup;
+			children = (
+				8DD70F3F1CEF076B004362E6 /* CircleProgressView.h */,
+				8DD70F401CEF076B004362E6 /* CircleProgressView.m */,
+			);
+			path = CircleProgressView;
+			sourceTree = "<group>";
+		};
+		8DD70F411CEF076B004362E6 /* CircleWithTextProgressView */ = {
+			isa = PBXGroup;
+			children = (
+				8DD70F421CEF076B004362E6 /* CircleWithTextProgressView.h */,
+				8DD70F431CEF076B004362E6 /* CircleWithTextProgressView.m */,
+			);
+			path = CircleWithTextProgressView;
+			sourceTree = "<group>";
+		};
+		8DD70F441CEF076B004362E6 /* LevelProgressView */ = {
+			isa = PBXGroup;
+			children = (
+				8DD70F451CEF076B004362E6 /* LevelProgressView.h */,
+				8DD70F461CEF076B004362E6 /* LevelProgressView.m */,
+			);
+			path = LevelProgressView;
+			sourceTree = "<group>";
+		};
+		8DD70F471CEF076B004362E6 /* SemiCircleProgressView */ = {
+			isa = PBXGroup;
+			children = (
+				8DD70F481CEF076B004362E6 /* SemiCircleProgressView.h */,
+				8DD70F491CEF076B004362E6 /* SemiCircleProgressView.m */,
+			);
+			path = SemiCircleProgressView;
+			sourceTree = "<group>";
+		};
+		8DD70F4A1CEF076B004362E6 /* SemiCircleWithTextProgressView */ = {
+			isa = PBXGroup;
+			children = (
+				8DD70F4B1CEF076B004362E6 /* SemiCircleWithTextProgressView.h */,
+				8DD70F4C1CEF076B004362E6 /* SemiCircleWithTextProgressView.m */,
+			);
+			path = SemiCircleWithTextProgressView;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -156,6 +327,8 @@
 		8D463CB11C858061009F16E8 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				LastSwiftMigration = 0730;
+				LastSwiftUpdateCheck = 0730;
 				LastUpgradeCheck = 0630;
 				ORGANIZATIONNAME = sky;
 				TargetAttributes = {
@@ -192,6 +365,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8D29B1ED1CEB0E61009BD243 /* MsgDetailCell.xib in Resources */,
 				8D463CC41C858061009F16E8 /* Main.storyboard in Resources */,
 				8D463CC91C858061009F16E8 /* LaunchScreen.xib in Resources */,
 				8D463CC61C858061009F16E8 /* Images.xcassets in Resources */,
@@ -212,8 +386,28 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8DD70F3A1CEF0756004362E6 /* LevelWithTextViewController.m in Sources */,
+				8DD70F291CEEF48A004362E6 /* SqrTitleScrollView.swift in Sources */,
 				8D463CC11C858061009F16E8 /* ViewController.swift in Sources */,
+				8DD70F381CEF0756004362E6 /* CircleWithTextViewController.m in Sources */,
+				8DD70F3B1CEF0756004362E6 /* SemiCircleViewController.m in Sources */,
+				8DD70F4D1CEF076B004362E6 /* CircleProgressView.m in Sources */,
+				8D29B1E91CEB0C57009BD243 /* MsgDetailViewController.swift in Sources */,
+				8DCE500C1CE5D167005C0493 /* HomeCell.swift in Sources */,
+				8DCE50061CE5C9AD005C0493 /* BViewController.swift in Sources */,
 				8D463CBF1C858061009F16E8 /* AppDelegate.swift in Sources */,
+				8DD70F4F1CEF076B004362E6 /* LevelProgressView.m in Sources */,
+				8DCE50071CE5C9AD005C0493 /* HomeViewController.swift in Sources */,
+				8DD70F3C1CEF0756004362E6 /* SemiCircleWithTextViewController.m in Sources */,
+				8D29B1EC1CEB0E61009BD243 /* MsgDetailCell.swift in Sources */,
+				8DD70F511CEF076B004362E6 /* SemiCircleWithTextProgressView.m in Sources */,
+				8DCE50081CE5C9AD005C0493 /* MessageCenterViewController.swift in Sources */,
+				8DD70F501CEF076B004362E6 /* SemiCircleProgressView.m in Sources */,
+				8DD70F391CEF0756004362E6 /* LevelProgressViewController.m in Sources */,
+				8DD70F261CEEDF54004362E6 /* MsgHeadImgViewController.swift in Sources */,
+				8DD70F4E1CEF076B004362E6 /* CircleWithTextProgressView.m in Sources */,
+				8DD70F371CEF0756004362E6 /* CircleViewController.m in Sources */,
+				8DCE50091CE5C9AD005C0493 /* SquareViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -340,9 +534,12 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PRECOMPILE_PREFIX_HEADER = NO;
+				GCC_PREFIX_HEADER = "";
 				INFOPLIST_FILE = swift3/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "swift3/swift3Tests-Bridging-Header.h";
 			};
 			name = Debug;
 		};
@@ -350,9 +547,12 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PRECOMPILE_PREFIX_HEADER = NO;
+				GCC_PREFIX_HEADER = "";
 				INFOPLIST_FILE = swift3/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "swift3/swift3Tests-Bridging-Header.h";
 			};
 			name = Release;
 		};
@@ -360,6 +560,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_ENABLE_MODULES = YES;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SDKROOT)/Developer/Library/Frameworks",
 					"$(inherited)",
@@ -371,6 +572,8 @@
 				INFOPLIST_FILE = swift3Tests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "swift3Tests/swift3Tests-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/swift3.app/swift3";
 			};
 			name = Debug;
@@ -379,6 +582,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_ENABLE_MODULES = YES;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SDKROOT)/Developer/Library/Frameworks",
 					"$(inherited)",
@@ -386,6 +590,7 @@
 				INFOPLIST_FILE = swift3Tests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "swift3Tests/swift3Tests-Bridging-Header.h";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/swift3.app/swift3";
 			};
 			name = Release;
@@ -409,6 +614,7 @@
 				8D463CDA1C858061009F16E8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		8D463CDB1C858061009F16E8 /* Build configuration list for PBXNativeTarget "swift3Tests" */ = {
 			isa = XCConfigurationList;
@@ -417,6 +623,7 @@
 				8D463CDD1C858061009F16E8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
