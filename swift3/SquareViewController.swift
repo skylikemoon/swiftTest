@@ -9,13 +9,25 @@
 import UIKit
 
 class SquareViewController: UIViewController {
-//    private var titleView:SqrTitleScrollView
-
+    var bannerView = BannerView()
+    override func viewWillAppear(animated: Bool) {
+        self.navigationController?.navigationBar.hidden = true
+    }
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         self.view.backgroundColor = UIColor.whiteColor()
         self.title = "广场"
-        // Do any additional setup after loading the view.
+        self.createBannerView()
+        
+    }
+    
+    func createBannerView(){
+        bannerView = BannerView.init(frame: CGRectMake(0, 0, SCREEN_WIDTH, SCREEN_HEIGHT/3))
+        let bnrArray : NSArray!
+            bnrArray = ["IMG_0017","IMG_0018","IMG_0019","IMG_0021"];
+        bannerView.initWithbannerArray(bnrArray)
+        self.view.addSubview(bannerView)
     }
 
     override func didReceiveMemoryWarning() {

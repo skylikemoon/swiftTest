@@ -69,13 +69,7 @@ class HomeViewController: UIViewController,UITableViewDataSource,UITableViewDele
     
     
     func scrollViewDidScroll(scrollView: UIScrollView) {
-//        CGFloat down = - scrollView.contentOffset.y -(topImageViewH * 0.5);
-//        if (down < 0) {
-//            down = 0;
-//        }
-//        CGRect frame = self.topImageView.frame;
-//        frame.size.height = down + topImageViewH;
-//        self.topImageView.frame = frame;
+
         var down:CGFloat = -scrollView.contentOffset.y-topImageViewH*0.5
         
         if down<0 {

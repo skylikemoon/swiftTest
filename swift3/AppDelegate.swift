@@ -35,7 +35,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         self.window?.rootViewController = mainViewController()
         self.window?.makeKeyAndVisible()
         
-        NSNotificationCenter.defaultCenter().addObserver(self, selector: "changeRootViewController", name: changeRootVC, object: nil)
+        NSNotificationCenter.defaultCenter().addObserver(self, selector: #selector(AppDelegate.changeRootViewController), name: changeRootVC, object: nil)
         
         return true
     }

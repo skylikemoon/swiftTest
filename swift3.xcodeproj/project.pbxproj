@@ -34,6 +34,7 @@
 		8DD70F4F1CEF076B004362E6 /* LevelProgressView.m in Sources */ = {isa = PBXBuildFile; fileRef = 8DD70F461CEF076B004362E6 /* LevelProgressView.m */; };
 		8DD70F501CEF076B004362E6 /* SemiCircleProgressView.m in Sources */ = {isa = PBXBuildFile; fileRef = 8DD70F491CEF076B004362E6 /* SemiCircleProgressView.m */; };
 		8DD70F511CEF076B004362E6 /* SemiCircleWithTextProgressView.m in Sources */ = {isa = PBXBuildFile; fileRef = 8DD70F4C1CEF076B004362E6 /* SemiCircleWithTextProgressView.m */; };
+		8DDEA1D61CF7EA3000C06CCC /* BannerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DDEA1D51CF7EA3000C06CCC /* BannerView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -92,6 +93,7 @@
 		8DD70F531CEF0C6A004362E6 /* PrefixHeader.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
 		8DD70F541CEF0D88004362E6 /* swift3Tests-Bridging-Header.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "swift3Tests-Bridging-Header.h"; sourceTree = "<group>"; };
 		8DD70F551CEF0DA9004362E6 /* swift3Tests-Bridging-Header.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "swift3Tests-Bridging-Header.h"; sourceTree = "<group>"; };
+		8DDEA1D51CF7EA3000C06CCC /* BannerView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BannerView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -203,6 +205,7 @@
 			children = (
 				8DCE50051CE5C9AD005C0493 /* SquareViewController.swift */,
 				8DD70F281CEEF48A004362E6 /* SqrTitleScrollView.swift */,
+				8DDEA1D51CF7EA3000C06CCC /* BannerView.swift */,
 			);
 			path = Square;
 			sourceTree = "<group>";
@@ -399,6 +402,7 @@
 				8DD70F4F1CEF076B004362E6 /* LevelProgressView.m in Sources */,
 				8DCE50071CE5C9AD005C0493 /* HomeViewController.swift in Sources */,
 				8DD70F3C1CEF0756004362E6 /* SemiCircleWithTextViewController.m in Sources */,
+				8DDEA1D61CF7EA3000C06CCC /* BannerView.swift in Sources */,
 				8D29B1EC1CEB0E61009BD243 /* MsgDetailCell.swift in Sources */,
 				8DD70F511CEF076B004362E6 /* SemiCircleWithTextProgressView.m in Sources */,
 				8DCE50081CE5C9AD005C0493 /* MessageCenterViewController.swift in Sources */,
