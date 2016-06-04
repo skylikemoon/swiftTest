@@ -14,7 +14,7 @@ class HomeViewController: UIViewController,UITableViewDataSource,UITableViewDele
     private var tableView = UITableView()
     private var topImageView = UIImageView()
     private let topImageViewH :CGFloat = 350
-    private let cellTitleArray = ["环形显示的进度条","环形显示的进度条——文字","弧形显示的进度条","弧形显示的进度条——文字","under"]
+    private let cellTitleArray = ["环形显示的进度条","环形显示的进度条——文字","弧形显示的进度条","弧形显示的进度条——文字",""]
     private let cellImageArray = ["under","under","under","under","under"]
     
     override func viewWillAppear(animated: Bool) {
