@@ -10,6 +10,12 @@
 		8D29B1E91CEB0C57009BD243 /* MsgDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D29B1E81CEB0C56009BD243 /* MsgDetailViewController.swift */; };
 		8D29B1EC1CEB0E61009BD243 /* MsgDetailCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D29B1EA1CEB0E61009BD243 /* MsgDetailCell.swift */; };
 		8D29B1ED1CEB0E61009BD243 /* MsgDetailCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8D29B1EB1CEB0E61009BD243 /* MsgDetailCell.xib */; };
+		8D40177C1D17DA20000864C7 /* AnimationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D4017761D17DA20000864C7 /* AnimationView.swift */; };
+		8D40177D1D17DA20000864C7 /* CircleLayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D4017781D17DA20000864C7 /* CircleLayer.swift */; };
+		8D40177E1D17DA20000864C7 /* RectangleLayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D4017791D17DA20000864C7 /* RectangleLayer.swift */; };
+		8D40177F1D17DA20000864C7 /* TriangleLayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D40177A1D17DA20000864C7 /* TriangleLayer.swift */; };
+		8D4017801D17DA20000864C7 /* WaveLayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D40177B1D17DA20000864C7 /* WaveLayer.swift */; };
+		8D4017821D17DAF1000864C7 /* Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D4017811D17DAF1000864C7 /* Extension.swift */; };
 		8D463CBF1C858061009F16E8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D463CBE1C858061009F16E8 /* AppDelegate.swift */; };
 		8D463CC11C858061009F16E8 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D463CC01C858061009F16E8 /* ViewController.swift */; };
 		8D463CC41C858061009F16E8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8D463CC21C858061009F16E8 /* Main.storyboard */; };
@@ -23,7 +29,6 @@
 		8DCE50071CE5C9AD005C0493 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DCE50031CE5C9AD005C0493 /* HomeViewController.swift */; };
 		8DCE50081CE5C9AD005C0493 /* MessageCenterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DCE50041CE5C9AD005C0493 /* MessageCenterViewController.swift */; };
 		8DCE50091CE5C9AD005C0493 /* SquareViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DCE50051CE5C9AD005C0493 /* SquareViewController.swift */; };
-		8DCE500C1CE5D167005C0493 /* HomeCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DCE500B1CE5D167005C0493 /* HomeCell.swift */; };
 		8DD70F261CEEDF54004362E6 /* MsgHeadImgViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DD70F251CEEDF54004362E6 /* MsgHeadImgViewController.swift */; };
 		8DD70F291CEEF48A004362E6 /* TitleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DD70F281CEEF48A004362E6 /* TitleView.swift */; };
 		8DD70F371CEF0756004362E6 /* CircleViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8DD70F2C1CEF0756004362E6 /* CircleViewController.m */; };
@@ -54,10 +59,16 @@
 		8D29B1E81CEB0C56009BD243 /* MsgDetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MsgDetailViewController.swift; sourceTree = "<group>"; };
 		8D29B1EA1CEB0E61009BD243 /* MsgDetailCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MsgDetailCell.swift; sourceTree = "<group>"; };
 		8D29B1EB1CEB0E61009BD243 /* MsgDetailCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MsgDetailCell.xib; sourceTree = "<group>"; };
+		8D4017761D17DA20000864C7 /* AnimationView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AnimationView.swift; sourceTree = "<group>"; };
+		8D4017781D17DA20000864C7 /* CircleLayer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CircleLayer.swift; sourceTree = "<group>"; };
+		8D4017791D17DA20000864C7 /* RectangleLayer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RectangleLayer.swift; sourceTree = "<group>"; };
+		8D40177A1D17DA20000864C7 /* TriangleLayer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TriangleLayer.swift; sourceTree = "<group>"; };
+		8D40177B1D17DA20000864C7 /* WaveLayer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WaveLayer.swift; sourceTree = "<group>"; };
+		8D4017811D17DAF1000864C7 /* Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Extension.swift; sourceTree = "<group>"; };
 		8D463CB91C858061009F16E8 /* swift3.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = swift3.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8D463CBD1C858061009F16E8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8D463CBE1C858061009F16E8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		8D463CC01C858061009F16E8 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		8D463CC01C858061009F16E8 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = ViewController.swift; path = ../../ViewController.swift; sourceTree = "<group>"; };
 		8D463CC31C858061009F16E8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		8D463CC51C858061009F16E8 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		8D463CC81C858061009F16E8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
@@ -71,7 +82,6 @@
 		8DCE50031CE5C9AD005C0493 /* HomeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = HomeViewController.swift; path = swift3/HomeViewController.swift; sourceTree = SOURCE_ROOT; };
 		8DCE50041CE5C9AD005C0493 /* MessageCenterViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MessageCenterViewController.swift; path = swift3/MessageCenterViewController.swift; sourceTree = SOURCE_ROOT; };
 		8DCE50051CE5C9AD005C0493 /* SquareViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SquareViewController.swift; path = swift3/SquareViewController.swift; sourceTree = SOURCE_ROOT; };
-		8DCE500B1CE5D167005C0493 /* HomeCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeCell.swift; sourceTree = "<group>"; };
 		8DD70F251CEEDF54004362E6 /* MsgHeadImgViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MsgHeadImgViewController.swift; sourceTree = "<group>"; };
 		8DD70F281CEEF48A004362E6 /* TitleView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = TitleView.swift; path = ../TitleView.swift; sourceTree = "<group>"; };
 		8DD70F2B1CEF0756004362E6 /* CircleViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CircleViewController.h; sourceTree = "<group>"; };
@@ -132,6 +142,28 @@
 			path = Message;
 			sourceTree = "<group>";
 		};
+		8D4017751D17DA20000864C7 /* HWView */ = {
+			isa = PBXGroup;
+			children = (
+				8D463CC01C858061009F16E8 /* ViewController.swift */,
+				8D4017761D17DA20000864C7 /* AnimationView.swift */,
+				8D4017811D17DAF1000864C7 /* Extension.swift */,
+				8D4017771D17DA20000864C7 /* Layer */,
+			);
+			path = HWView;
+			sourceTree = "<group>";
+		};
+		8D4017771D17DA20000864C7 /* Layer */ = {
+			isa = PBXGroup;
+			children = (
+				8D4017781D17DA20000864C7 /* CircleLayer.swift */,
+				8D4017791D17DA20000864C7 /* RectangleLayer.swift */,
+				8D40177A1D17DA20000864C7 /* TriangleLayer.swift */,
+				8D40177B1D17DA20000864C7 /* WaveLayer.swift */,
+			);
+			path = Layer;
+			sourceTree = "<group>";
+		};
 		8D463CB01C858060009F16E8 = {
 			isa = PBXGroup;
 			children = (
@@ -156,7 +188,6 @@
 				8DD70F3D1CEF076B004362E6 /* SHProgressView */,
 				8DD70F2A1CEF0756004362E6 /* Controllers */,
 				8D463CBE1C858061009F16E8 /* AppDelegate.swift */,
-				8D463CC01C858061009F16E8 /* ViewController.swift */,
 				8DCE50021CE5C9AD005C0493 /* BViewController.swift */,
 				8DCE500A1CE5D142005C0493 /* Home */,
 				8DD70F271CEEF306004362E6 /* Square */,
@@ -209,8 +240,8 @@
 		8DCE500A1CE5D142005C0493 /* Home */ = {
 			isa = PBXGroup;
 			children = (
+				8D4017751D17DA20000864C7 /* HWView */,
 				8DCE50031CE5C9AD005C0493 /* HomeViewController.swift */,
-				8DCE500B1CE5D167005C0493 /* HomeCell.swift */,
 			);
 			path = Home;
 			sourceTree = "<group>";
@@ -413,21 +444,26 @@
 				8DD70F381CEF0756004362E6 /* CircleWithTextViewController.m in Sources */,
 				8DD70F3B1CEF0756004362E6 /* SemiCircleViewController.m in Sources */,
 				8DD70F4D1CEF076B004362E6 /* CircleProgressView.m in Sources */,
+				8D4017821D17DAF1000864C7 /* Extension.swift in Sources */,
 				8D29B1E91CEB0C57009BD243 /* MsgDetailViewController.swift in Sources */,
-				8DCE500C1CE5D167005C0493 /* HomeCell.swift in Sources */,
 				8DCE50061CE5C9AD005C0493 /* BViewController.swift in Sources */,
+				8D40177E1D17DA20000864C7 /* RectangleLayer.swift in Sources */,
+				8D4017801D17DA20000864C7 /* WaveLayer.swift in Sources */,
 				8D463CBF1C858061009F16E8 /* AppDelegate.swift in Sources */,
 				8DD70F4F1CEF076B004362E6 /* LevelProgressView.m in Sources */,
+				8D40177F1D17DA20000864C7 /* TriangleLayer.swift in Sources */,
 				8DCE50071CE5C9AD005C0493 /* HomeViewController.swift in Sources */,
 				8DD70F3C1CEF0756004362E6 /* SemiCircleWithTextViewController.m in Sources */,
 				8DDEA1D61CF7EA3000C06CCC /* BannerView.swift in Sources */,
 				8D29B1EC1CEB0E61009BD243 /* MsgDetailCell.swift in Sources */,
 				8DD70F511CEF076B004362E6 /* SemiCircleWithTextProgressView.m in Sources */,
 				8DCE50081CE5C9AD005C0493 /* MessageCenterViewController.swift in Sources */,
+				8D40177C1D17DA20000864C7 /* AnimationView.swift in Sources */,
 				8D90351D1D0022F300D0369C /* CustomCycleCell.swift in Sources */,
 				8DD70F501CEF076B004362E6 /* SemiCircleProgressView.m in Sources */,
 				8DD70F391CEF0756004362E6 /* LevelProgressViewController.m in Sources */,
 				8DD70F261CEEDF54004362E6 /* MsgHeadImgViewController.swift in Sources */,
+				8D40177D1D17DA20000864C7 /* CircleLayer.swift in Sources */,
 				8DD70F4E1CEF076B004362E6 /* CircleWithTextProgressView.m in Sources */,
 				8DD70F371CEF0756004362E6 /* CircleViewController.m in Sources */,
 				8DCE50091CE5C9AD005C0493 /* SquareViewController.swift in Sources */,
